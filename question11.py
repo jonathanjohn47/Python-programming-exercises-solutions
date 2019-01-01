@@ -19,4 +19,5 @@ for i in range(n):
 		z.append(x[i])
 	else:
 		pass
-print(z)
+for i in range(len(z)):
+	print(z[i], end = ' ')
